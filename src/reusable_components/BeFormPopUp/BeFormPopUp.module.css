@@ -1,0 +1,116 @@
+.application_form {
+  background: -o-linear-gradient(358.82deg, #1c85a6 1.39%, #6c5ecf 99.14%);
+  background: linear-gradient(91.18deg, #1c85a6 1.39%, #6c5ecf 99.14%);
+  border-radius: 8px;
+  color: white;
+  text-align: left;
+  padding: 40px 100px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Montserrat-SemiBold';
+  position: relative;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.application_form_lbl {
+  font-size: 12px;
+}
+
+.application_form_input {
+  margin: 10px 0 10px;
+}
+
+.application_form_btn {
+  width: 180px;
+  height: 50px;
+  border: 1.5px solid #1c85a6;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: white;
+  background: deeppink;
+  margin-top: 1vw;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.application_title {
+  font-size: 60px;
+  margin: 0 0 50px;
+}
+
+.application_subtitle {
+  font-size: 20px;
+}
+
+.application_img {
+  width: 810px;
+  height: 700px;
+  background: #c4c4c4;
+  margin: 0 0 250px 115px;
+}
+
+.application_info {
+  margin-left: 25px;
+}
+
+.application_form_title {
+  text-align: center;
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 30px;
+}
+
+.application_form_del {
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.application_form_del:hover {
+  color: red;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@media (max-width: 1110px) {
+  .application_form {
+    width: 45vw;
+  }
+}
+@media (max-width: 991px) {
+  .application_form {
+    width: 600px;
+  }
+}
+@media (max-width: 660px) {
+  .application_form {
+    width: 90vw;
+  }
+}
+@media (max-width: 480px) {
+  .application_form {
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+  }
+}

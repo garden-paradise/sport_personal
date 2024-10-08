@@ -1,0 +1,66 @@
+.abonement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.abonement_title_h {
+  font-size: 25px;
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 20px;
+  text-align: center;
+}
+.abonement_title {
+  font-size: 22px;
+  font-family: 'Montserrat-SemiBold';
+  margin: 30px 0 20px;
+}
+.abonement_div_subtit {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.abonement_btn {
+  padding: 13px 14px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  /* background: linear-gradient(91.18deg, #1c85a6 1.39%, #6c5ecf 99.14%); */
+  background: deeppink;
+  color: white;
+  font-family: 'Montserrat-SemiBold';
+  margin: 10px auto 50px;
+  display: flex;
+}
+
+.abonement_subtit_b {
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+@media (max-width: 1599px) {
+  .trainer_container {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 740px) {
+  .abonement_div_subtit_c {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .abonement {
+    justify-content: center;
+  }
+}

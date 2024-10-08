@@ -1,0 +1,11 @@
+.app_container {
+  width: 100%;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media (max-width: 479px) {
+  body {
+    font-size: 12px;
+  }
+}

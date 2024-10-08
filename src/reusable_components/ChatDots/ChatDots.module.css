@@ -1,0 +1,177 @@
+.chatDots {
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 10%;
+  right: 6.5%;
+  z-index: 20;
+}
+
+.fab_form {
+  margin-right: 5px;
+}
+
+.fab_form_none {
+  display: none;
+}
+
+.application_form {
+  /* background: linear-gradient(91.18deg, #1c85a6 1.39%, #6c5ecf 99.14%); */
+  background: rgb(241, 86, 169);
+  box-shadow: 2px 5px 15px rgb(213, 49, 136);
+  border-radius: 20px;
+  color: white;
+  text-align: left;
+  padding: 15px 10px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Montserrat-SemiBold;';
+}
+
+.application_form_label {
+  font-size: 10px;
+  font-family: 'Montserrat-SemiBold;';
+}
+
+.application_form_input {
+  width: 225px;
+  border: 0;
+}
+
+.application_form_btn {
+  width: 100px;
+  height: 30px;
+  border: 1.5px solid #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: white;
+  background: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.application_title {
+  font-size: 60px;
+  margin: 0 0 50px;
+}
+
+.application_subtitle {
+  font-size: 20px;
+}
+
+.application_img {
+  width: 810px;
+  height: 700px;
+  background: #c4c4c4;
+  margin: 0 0 250px 115px;
+}
+
+.application_info {
+  margin-left: 25px;
+}
+
+.application_form_input_textarea {
+  height: 70px;
+  resize: none;
+}
+
+.fab {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgb(241, 86, 169);
+  border-radius: 30px;
+}
+
+.fab_buttons {
+  bottom: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fab_buttons_none {
+  display: none;
+}
+
+.chatDots_img {
+  width: 34px;
+}
+
+.application_form_p {
+  font-size: 12px;
+}
+
+.fab_action_button {
+  border: 1.5px solid rgb(132, 3, 72);
+  background-color: deeppink;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.fab_buttons__item {
+  display: block;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.fab_buttons__link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.icon_material {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@media (max-width: 380px) {
+  .chatDots {
+    right: 6.5%;
+  }
+}
+@media (max-width: 340px) {
+  .application_form_input {
+    width: 200px;
+  }
+  .application_form_input_textarea {
+    height: 50px;
+  }
+}
